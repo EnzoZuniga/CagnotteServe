@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notifications",
+  "info": {
+    "singularName": "notification",
+    "pluralName": "notifications",
+    "displayName": "notification",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "open": {
+      "type": "boolean"
+    },
+    "name": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "activity_name": {
+      "type": "string"
+    },
+    "pool_name": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    }
+  }
+}

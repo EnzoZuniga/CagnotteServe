@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "donations",
+  "info": {
+    "singularName": "donation",
+    "pluralName": "donations",
+    "displayName": "donation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "somme": {
+      "type": "decimal"
+    },
+    "giver_name": {
+      "type": "string"
+    },
+    "giver_lastname": {
+      "type": "string"
+    },
+    "pool_id": {
+      "type": "integer"
+    }
+  }
+}
